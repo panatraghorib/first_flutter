@@ -1,3 +1,4 @@
+import 'package:first_flutter/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
           seedColor: const Color.fromARGB(255, 192, 6, 28),
         ),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Pagex'),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
@@ -106,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text('You have pushed the button this many times:'),
+            const Text('You:'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
